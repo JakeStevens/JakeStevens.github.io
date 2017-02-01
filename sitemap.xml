@@ -4,6 +4,22 @@
     
     
     <url>
+      <loc>https://jakestevens.github.io/project/quicksilver/</loc>
+      <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+      <loc>https://jakestevens.github.io/project/riscv-business/</loc>
+      <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
       <loc>https://jakestevens.github.io/project/track-rx/</loc>
       <lastmod>2017-01-27T00:00:00+00:00</lastmod>
     </url>
@@ -12,16 +28,8 @@
     
     
     <url>
-      <loc>https://jakestevens.github.io/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-      <loc>https://jakestevens.github.io/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>https://jakestevens.github.io/tags/digital-hardware/</loc>
+      <lastmod>2017-01-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -51,7 +59,7 @@
     
     <url>
       <loc>https://jakestevens.github.io/project/</loc>
-      <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-01-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

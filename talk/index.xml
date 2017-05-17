@@ -11,13 +11,21 @@
     <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Example Talk</title>
-      <link>https://jakestevens.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Purdue MicroBrewer: A Microcontroller Generator</title>
+      <link>https://jakestevens.github.io/talk/microbrewer/</link>
+      <pubDate>Mon, 03 Apr 2017 21:21:10 -0400</pubDate>
       
-      <guid>https://jakestevens.github.io/talk/example-talk/</guid>
-      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://jakestevens.github.io/talk/microbrewer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RISC-V Business: A Configurable, Extensible RISC-V Core</title>
+      <link>https://jakestevens.github.io/talk/riscvbusiness/</link>
+      <pubDate>Sun, 02 Apr 2017 21:21:10 -0400</pubDate>
+      
+      <guid>https://jakestevens.github.io/talk/riscvbusiness/</guid>
+      <description></description>
     </item>
     
   </channel>

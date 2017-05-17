@@ -10,13 +10,12 @@
     <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://jakestevens.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>Energy-Aware Memory Mapping for Hybrid FRAM-SRAM MCUs in Intermittently-Powered IoT Devices</title>
+      <link>https://jakestevens.github.io/publication/emmap/</link>
+      <pubDate>Tue, 16 May 2017 21:59:36 -0400</pubDate>
       
-      <guid>https://jakestevens.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://jakestevens.github.io/publication/emmap/</guid>
+      <description></description>
     </item>
     
   </channel>

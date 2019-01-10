@@ -34,11 +34,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://jakestevens.github.io/publication/emmap/">
+  <link rel="canonical" href="https://jakestevens.github.io/publication/acclib/">
 
   
 
-  <title>Energy-Aware Memory Mapping for Hybrid FRAM-SRAM MCUs in Intermittently-Powered IoT Devices | Jacob R. Stevens</title>
+  <title>ACCLIB: Accelerators as Libraries | Jacob R. Stevens</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -133,10 +133,10 @@
 <div class="container pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   <div class="pub-title">
-    <h1 itemprop="name">Energy-Aware Memory Mapping for Hybrid FRAM-SRAM MCUs in Intermittently-Powered IoT Devices</h1>
+    <h1 itemprop="name">ACCLIB: Accelerators as Libraries</h1>
     <span class="pub-authors" itemprop="author">
       
-      Hrishikesh Jayakumar, Arnab Raha, Jacob R. Stevens, Vijay Raghunathan
+      Jacob R. Stevens, Yue Du, Vivek Kozhikkott, Anand Raghunathan
       
     </span>
     <span class="pull-right">
@@ -145,35 +145,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjakestevens.github.io%2fpublication%2femmap%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fjakestevens.github.io%2fpublication%2facclib%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Energy-Aware%20Memory%20Mapping%20for%20Hybrid%20FRAM-SRAM%20MCUs%20in%20Intermittently-Powered%20IoT%20Devices&amp;url=https%3a%2f%2fjakestevens.github.io%2fpublication%2femmap%2f"
+         href="https://twitter.com/intent/tweet?text=ACCLIB%3a%20Accelerators%20as%20Libraries&amp;url=https%3a%2f%2fjakestevens.github.io%2fpublication%2facclib%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjakestevens.github.io%2fpublication%2femmap%2f&amp;title=Energy-Aware%20Memory%20Mapping%20for%20Hybrid%20FRAM-SRAM%20MCUs%20in%20Intermittently-Powered%20IoT%20Devices"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjakestevens.github.io%2fpublication%2facclib%2f&amp;title=ACCLIB%3a%20Accelerators%20as%20Libraries"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjakestevens.github.io%2fpublication%2femmap%2f&amp;title=Energy-Aware%20Memory%20Mapping%20for%20Hybrid%20FRAM-SRAM%20MCUs%20in%20Intermittently-Powered%20IoT%20Devices"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fjakestevens.github.io%2fpublication%2facclib%2f&amp;title=ACCLIB%3a%20Accelerators%20as%20Libraries"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Energy-Aware%20Memory%20Mapping%20for%20Hybrid%20FRAM-SRAM%20MCUs%20in%20Intermittently-Powered%20IoT%20Devices&amp;body=https%3a%2f%2fjakestevens.github.io%2fpublication%2femmap%2f">
+         href="mailto:?subject=ACCLIB%3a%20Accelerators%20as%20Libraries&amp;body=https%3a%2f%2fjakestevens.github.io%2fpublication%2facclib%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -190,7 +190,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Forecasts project that by 2020, there will be around 50 billion devices connected to the Internet of Things (IoT), most of which will operate untethered and unplugged. While environmental energy harvesting is a promising solution to power these IoT edge devices, it introduces new complexities due to the unreliable nature of ambient energy sources. In the presence of an unreliable power supply, frequent checkpointing of the system state becomes imperative, and recent research has proposed the concept of in-situ checkpointing by using ferroelectric RAM (FRAM), an emerging non-volatile memory technology, as unified memory in these systems. Even though an entirely FRAM-based solution provides reliability, it is energy inefficient compared to SRAM due to the higher access latency of FRAM. On the other hand, an entirely SRAM-based solution is highly energy efficient but is unreliable in the face of power loss. This paper advocates an intermediate approach in hybrid FRAM-SRAM microcontrollers that involves judicious memory mapping of program sections to retain the reliability benefits provided by FRAM while performing almost as efficiently as an SRAM-based system. We propose an energy-aware memory mapping technique that maps different program sections to the hybrid FRAM-SRAM microcontroller such that energy consumption is minimized without sacrificing reliability. Our technique consists of eM-map, which performs a one-time characterization to find the optimal memory map for the functions that constitute a program and energy-align, a novel hardware-software technique that aligns the system’s powered-on time intervals to function execution boundaries, which results in further improvements in energy efficiency and performance. Experimental results obtained using the MSP430FR5739 microcontroller demonstrate a significant performance improvement of up to 2x and energy reduction of up to 20% over a state-of-the-art FRAM-based solution. Finally, we present a case study that shows the implementation of our techniques in the context of a real IoT application.</p>
+  <p class="pub-abstract" itemprop="text">Accelerator-based computing, which has been a mainstay of System-on-Chips (SoCs) is of growing interest to a wider range of computing systems. However, the significant design effort required to identify a computational target for acceleration, design a hardware accelerator, verify the correctness of the accelerator, integrate the accelerator into the system, and rewrite applications to use the accelerator, is a major bottleneck to the widespread adoption of accelerator-based computing. The classical approach to this problem is based on top-down methodologies such as automatic HW/SW partitioning and high-level synthesis (HLS). While HLS has advanced significantly and is seeing increased adoption, it does not leverage the ability of experienced human designers to craft highly optimized RTL, nor does it leverage the growing body of already existing hardware accelerators. In this work, we propose ACCLIB, a design framework that allows software developers to utilize existing libraries of predesigned hardware accelerators automatically with no prior knowledge of the function of the accelerators, with minimal knowledge of hardware design, and with minimal design effort. To accomplish this, ACCLIB uses formal verification techniques to match a target software function with a functionally equivalent accelerator from a library of accelerators. It also generates the required HW/SW interfaces as well as the code necessary to offload the computation to the accelerator. We validate ACCLIB by applying it to accelerate six different applications using a library of hardware accelerators in just over one hour per application, demonstrating that the proposed approach has the potential to lower the barrier to adoption of accelerator-based computing.</p>
 
   
   <div class="row">
@@ -200,8 +200,8 @@
         <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
         <div class="col-xs-12 col-sm-9">
           
-          <a href="/publication/#2">
-            Journal
+          <a href="/publication/#1">
+            Conference proceedings
           </a>
           
         </div>
@@ -217,7 +217,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">ACM Transactions on Embedded Computing Systems</div>
+        <div class="col-xs-12 col-sm-9">Design, Automation, and Test in Europe, 2018</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -230,7 +230,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          May, 2017
+          January, 2019
         </div>
       </div>
     </div>
@@ -275,9 +275,12 @@
   <nav>
   <ul class="pager">
     
+    <li class="previous"><a href="https://jakestevens.github.io/publication/emmap/"><span
+      aria-hidden="true">&larr;</span> Energy-Aware Memory Mapping for Hybrid FRAM-SRAM MCUs in Intermittently-Powered IoT Devices</a></li>
+    
 
     
-    <li class="next"><a href="https://jakestevens.github.io/publication/acclib/">ACCLIB: Accelerators as Libraries <span
+    <li class="next"><a href="https://jakestevens.github.io/publication/axba/">AxBA: An Approximate Bus Architecture <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

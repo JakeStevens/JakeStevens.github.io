@@ -11,6 +11,24 @@
     <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>AxBA: An Approximate Bus Architecture</title>
+      <link>https://jakestevens.github.io/publication/axba/</link>
+      <pubDate>Wed, 09 Jan 2019 21:24:18 -0500</pubDate>
+      
+      <guid>https://jakestevens.github.io/publication/axba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACCLIB: Accelerators as Libraries</title>
+      <link>https://jakestevens.github.io/publication/acclib/</link>
+      <pubDate>Wed, 09 Jan 2019 21:16:12 -0500</pubDate>
+      
+      <guid>https://jakestevens.github.io/publication/acclib/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Energy-Aware Memory Mapping for Hybrid FRAM-SRAM MCUs in Intermittently-Powered IoT Devices</title>
       <link>https://jakestevens.github.io/publication/emmap/</link>
       <pubDate>Tue, 16 May 2017 21:59:36 -0400</pubDate>
